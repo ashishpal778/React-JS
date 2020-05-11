@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import "./index.css"
+import "./assets/index.css"
 
 class Parent extends React.Component {
   constructor(props){
@@ -20,6 +20,7 @@ class Parent extends React.Component {
   render(){
   return(
     <div>
+      <div class hea></div>
       <h1 className="title">Name: {this.state.name}</h1>
       <h1>Count: {this.state.count}</h1>
       <button onClick= {this.clickMe} >button</button>
